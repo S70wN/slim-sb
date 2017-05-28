@@ -1,0 +1,34 @@
+# messages (ie: shutdown, session options, etc)
+msg_color               #009EFF
+msg_font                Courier:size=8:bold:dpi=96
+msg_x                   90%
+msg_y                   5%
+
+# valid values: stretch, tile
+background_style        tile
+background_color        #000000
+
+# panel location
+input_font              Courier:size=8:bold:dpi=96
+input_color             #009EFF
+input_panel_x           50%
+input_panel_y           50%
+input_name_x            270
+input_name_y            620
+
+# force single input box (gdm style)
+input_pass_x            -1
+input_pass_y            -1
+
+# username / password request (actual text)
+username_font           Courier:size=9:bold:dpi=96
+username_color          #333333
+password_font           Courier:size=9:bold:dpi=96
+password_color          #333333
+username_x              200
+username_y              620
+password_x              200
+password_y              620
+
+username_msg            username:
+password_msg            password:
